@@ -1,0 +1,54 @@
+body {
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+}
+
+input,
+textarea {
+  background-color: lightseagreen;
+  width: 50%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid rgb(65, 243, 160);
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+  color: white;
+
+}
+/* Esto es para quitarle los botones de los numeros 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}*/
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(221, 216, 216);
+}
+
+textarea {
+  border: 3px solid rgb(65, 243, 160);
+  border-radius: 15px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: deeppink;
+  color: white;
+  font-size: 20px;
+  font-weight: bold; /*para colocar negritas*/
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: white;
+  color: darkorchid;
+  border: 2px solid darkorchid;
+}
