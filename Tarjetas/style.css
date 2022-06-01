@@ -1,0 +1,56 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  margin: 0px 20px;
+}
+.tarjetas{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 30px;
+
+}
+.tarjetas div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backface-visibility: hidden;
+  transition: 1s;
+}
+.tarjetas .adelante{
+  background-color: rgb(23, 24, 24);
+  transform: perspective(600px) rotateY(0deg);
+}
+.tarjetas .atras{
+  background-color: rgb(219, 159, 28);
+  transform: perspective(600px) rotateY(180deg);
+}
+.tarjetas:hover .adelante{
+  transform: perspective(600px) rotateY(180deg);
+}
+.tarjetas:hover .atras{
+  transform: perspective(600px) rotateY(360deg);
+}
+h2, h3, p{
+  text-align: center;
+  margin-top: 30px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}

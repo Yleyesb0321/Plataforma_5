@@ -1,0 +1,30 @@
+footer{
+  background-color: rgb(15, 40, 80);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+img{
+  width: 250px;
+}
+div{
+  width: 25%;
+
+}
+a{
+  text-decoration: none;
+
+}
+i{  
+  font-size:30px;
+  padding:10px;
+  color: aliceblue;
+  
+}
+i:hover{
+  color: rgb(247, 225, 34);
+}
