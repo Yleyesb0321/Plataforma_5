@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(rgb(113, 194, 194), rgb(243, 177, 177));
+  background-repeat: no-repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 95vh;
+
+}
+.contenedor{
+  width: 450px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.11);
+  margin: 0 auto;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  border-radius: 45px;
+}
+img{
+  width: 50%;
+  height: 200px;
+}
+h2{
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  margin: 18px 0;
+}
+h3{
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+p{
+  text-align: justify;
+}
+ul{
+  list-style: none;
+  margin-top: 20px;
+}
+li{
+  display: inline-block;
+}
+a{
+  color: white;
+  font-size: 40px;
+  margin: 10px 5px;
+  transition: all 0.4s ease-in-out;/** Esta tambien ayuda a agrandar los iconos */
+  display: block;
+}
+a:hover{
+  color: rgb(113, 194, 194);
+  transform: scale(1.2);/*~ Esta funcion agranda los iconos */
+}
